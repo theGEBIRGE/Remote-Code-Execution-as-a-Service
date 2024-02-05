@@ -1,0 +1,27 @@
+name: "RCE as a Service (Stage 2)"
+author: "GEBIRGE"
+category: "Web"
+
+description: |
+It came to our attention that a highly advanced `APT` targeted our `edge computing system`. In order to stop the attacks, we implemented *even more advanced* mitigations.
+
+Think `seccomp`, but for the `web`!
+
+Now there's **no** way an attacker could run malicious code, right?
+
+(Goal: Read `flag.txt` at the filesystem's root.)
+value: 100
+type: "standard"
+
+files:
+  - "Program.cs"
+  - "api_usage.md"
+flags:
+  - "LosCTF{L1V1N_ON_TH3_3DG3}"
+tags:
+  - "web"
+
+state: "visible"
+version: "1.0"
+
+ops:
